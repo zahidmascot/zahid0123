@@ -1,0 +1,36 @@
+ /* popular section style */
+ .popular-container{
+    margin: 20px;
+       }
+   .popular-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+   }
+   .img-container{
+    background-color:#f1f1f1;
+    padding: 30px;
+    border-radius: 15px 15px 0 0;
+}
+.vitorer-element{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+}
+.head, .Mie, .salad, .lorem, .spaghetti{
+    border: 2px solid red; 
+}
+@media screen and (max-width:576px) {
+    .head{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color: bisque;
+    }
+    .popular-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color: bisque;
+    }
+}
